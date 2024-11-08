@@ -2,13 +2,13 @@ import { createRoot } from 'react-dom/client';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Todo from './Pages/Todo';
-import Register from './Pages/Register';
+import Todo from './pages/Todo';
+import Register from './pages/Register';
 import Layout from './Layout';
-import Login from './Pages/Login';
-import Home from './Pages/Home';
+import Login from './pages/Login';
+import Home from './pages/Home';
 import ProtectedRoutes from './components/ProtectedRoutes';
-import Logout from './Pages/Logout';
+import Logout from './pages/Logout';
 const router = createBrowserRouter([
   {
     path: '/',
